@@ -1,3 +1,4 @@
+//CommentBox component Creation
 var CommentBox = React.createClass({
   render: function() {
     return (
@@ -8,6 +9,7 @@ var CommentBox = React.createClass({
   }
 });
 
+// Rendering the component on DOM(creating virtual DOM)
 React.render(
   <CommentBox />,
   document.getElementById('content')
